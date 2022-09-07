@@ -4,7 +4,7 @@ function InputControl({label, ...props}) {
   return (
     <div className={styles.container}>
         {label && <label>{label}</label>}
-        <input type="text" {...props} placeholder="Enter section title"/>
+        <input type="text" {...props} />
     </div>
   )
 }
