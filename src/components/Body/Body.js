@@ -94,7 +94,11 @@ function Body() {
       </div>
       
       <div className={styles.main}>
-        <Editor sections={sections} information={resumeInformation} />
+        <Editor 
+            sections={sections} 
+            information={resumeInformation} 
+            setInformation={setResumeInformation}
+        />
         {/* <Resume
           ref={resumeRef}
           sections={sections}
